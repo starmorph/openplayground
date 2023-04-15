@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: starmorph-playground
+    env: python
+    buildCommand: "docker build -t starmorph-playground ."
+    startCommand: "docker run -p 10000:8000 starmorph-playground"
+    healthCheckPath: /
+    port: 10000
