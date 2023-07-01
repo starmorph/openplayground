@@ -21,7 +21,7 @@
             "value": 200,
             "range": [
               50,
-              1024
+              2048
             ]
           },
           "topP": {
@@ -69,7 +69,7 @@
             "value": 200,
             "range": [
               50,
-              1024
+              2048
             ]
           },
           "topP": {
@@ -117,7 +117,7 @@
             "value": 200,
             "range": [
               50,
-              1024
+              2048
             ]
           },
           "topP": {
@@ -165,7 +165,7 @@
             "value": 200,
             "range": [
               50,
-              1024
+              4000
             ]
           },
           "topP": {
@@ -213,7 +213,7 @@
             "value": 200,
             "range": [
               50,
-              1024
+              4097
             ]
           },
           "topP": {
@@ -261,7 +261,7 @@
             "value": 200,
             "range": [
               50,
-              1024
+              8192
             ]
           },
           "topP": {
@@ -297,7 +297,7 @@
     "requiresAPIKey": true,
     "remoteInference": true,
     "models": {
-      "xlarge": {
+      "command-light": {
         "enabled": false,
         "status": "ready",
         "capabilities": [],
@@ -313,7 +313,7 @@
             "value": 200,
             "range": [
               50,
-              1024
+              4096
             ]
           },
           "topP": {
@@ -350,7 +350,7 @@
           }
         }
       },
-      "medium": {
+      "command": {
         "enabled": false,
         "status": "ready",
         "capabilities": [],
@@ -366,113 +366,7 @@
             "value": 200,
             "range": [
               50,
-              1024
-            ]
-          },
-          "topP": {
-            "value": 1,
-            "range": [
-              0.1,
-              1
-            ]
-          },
-          "topK": {
-            "value": 0,
-            "range": [
-              0,
-              500
-            ]
-          },
-          "presencePenalty": {
-            "value": 1,
-            "range": [
-              0,
-              1
-            ]
-          },
-          "frequencyPenalty": {
-            "value": 1,
-            "range": [
-              0,
-              1
-            ]
-          },
-          "stopSequences": {
-            "value": [],
-            "range": []
-          }
-        }
-      },
-      "command-medium-nightly": {
-        "enabled": false,
-        "status": "ready",
-        "capabilities": [],
-        "parameters": {
-          "temperature": {
-            "value": 1,
-            "range": [
-              0.1,
-              2
-            ]
-          },
-          "maximumLength": {
-            "value": 200,
-            "range": [
-              50,
-              1024
-            ]
-          },
-          "topP": {
-            "value": 1,
-            "range": [
-              0.1,
-              1
-            ]
-          },
-          "topK": {
-            "value": 0,
-            "range": [
-              0,
-              500
-            ]
-          },
-          "presencePenalty": {
-            "value": 1,
-            "range": [
-              0,
-              1
-            ]
-          },
-          "frequencyPenalty": {
-            "value": 1,
-            "range": [
-              0,
-              1
-            ]
-          },
-          "stopSequences": {
-            "value": [],
-            "range": []
-          }
-        }
-      },
-      "command-xlarge-nightly": {
-        "enabled": false,
-        "status": "ready",
-        "capabilities": [],
-        "parameters": {
-          "temperature": {
-            "value": 1,
-            "range": [
-              0.1,
-              2
-            ]
-          },
-          "maximumLength": {
-            "value": 200,
-            "range": [
-              50,
-              1024
+              4096
             ]
           },
           "topP": {
@@ -610,9 +504,7 @@
       "claude-instant-v1": {
         "enabled": false,
         "status": "ready",
-        "capabilities": [
-          "logprobs"
-        ],
+        "capabilities": [],
         "parameters": {
           "temperature": {
             "value": 1,
@@ -625,34 +517,13 @@
             "value": 205,
             "range": [
               50,
-              1024
+              9216
             ]
           },
           "topP": {
             "value": 1,
             "range": [
               0.1,
-              1
-            ]
-          },
-          "topK": {
-            "value": 1,
-            "range": [
-              1,
-              500
-            ]
-          },
-          "presencePenalty": {
-            "value": 1,
-            "range": [
-              0,
-              1
-            ]
-          },
-          "frequencyPenalty": {
-            "value": 1,
-            "range": [
-              0,
               1
             ]
           },
@@ -665,9 +536,7 @@
       "claude-v1": {
         "enabled": false,
         "status": "ready",
-        "capabilities": [
-          "logprobs"
-        ],
+        "capabilities": [],
         "parameters": {
           "temperature": {
             "value": 1,
@@ -680,34 +549,13 @@
             "value": 200,
             "range": [
               50,
-              1024
+              9216
             ]
           },
           "topP": {
             "value": 1,
             "range": [
               0.1,
-              1
-            ]
-          },
-          "topK": {
-            "value": 1,
-            "range": [
-              1,
-              500
-            ]
-          },
-          "presencePenalty": {
-            "value": 1,
-            "range": [
-              0,
-              1
-            ]
-          },
-          "frequencyPenalty": {
-            "value": 1,
-            "range": [
-              0,
               1
             ]
           },
